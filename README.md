@@ -1,18 +1,21 @@
-BUSINESS CONTEXT:
+# Credit Card Segmentation
+
+# BUSINESS CONTEXT:
+
 In this project it requires to develop a customer segmentation to define marketing strategy through machine learning technique. 
 The sample dataset summarizes the usage behavior of about 9000 active credit card holders during the last 6 months. 
 The file is at a customer level with 18 behavioral variables.
 
-Problems need to address:
+# Problems need to address:
 
-Advanced data preparation: Build an ‘enriched’ customer profile by deriving “intelligent” KPIs such as:
+# Advanced data preparation: Build an ‘enriched’ customer profile by deriving “intelligent” KPIs such as:
 1. Monthly average purchase and cash advance amount
 2. Purchases by type (one-off, installments)
 3. Average amount per purchase and cash advance transaction
 4. Limit usage (balance to credit limit ratio)
 5. Payments to minimum payments ratio etc.
 
-DATA DICTIONARY:
+# DATA DICTIONARY:
 * CUST_ID: Credit card holder ID
 * BALANCE: Monthly average balance (based on daily balance averages)
 * BALANCE_FREQUENCY: Ratio of last 12 months with balance
